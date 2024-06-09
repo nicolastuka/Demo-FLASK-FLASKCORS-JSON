@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Población de Paises - JS Moderno</title>
+</head>
+
+<body>
+    <header>
+        <h1>Población de Paises de Sudamérica con JS Moderno</h1>
+    </header>
+    <section>
+        <canvas id="lienzo" width="650" height="400" style="border: 2px solid black;"></canvas>
+    </section>
+    <fieldset>
+        <legend><b>Agregar un pais:</b></legend>
+        <form>
+            <label for="nombre">Nombre del Nuevo Pais:</label>
+            <input type="text" id="nombre">
+            <label for="cantidad">Cantidad de Habitantes del Nuevo Pais:</label>
+            <input type="number" id="cantidad">
+            <input type="submit" value="Guardar">
+        </form>
+    </fieldset>
+    <br>
+    <footer>
+        <!--Por favor, no lo hagan así ustedes, esto es para no complicar el código-->
+        <center>
+            <b>Demostración realizada por el Prof. Nicolás Capel</b>
+        </center>
+    </footer>
+    <script src="data.js" type="module"></script>
+    <script src="app.js" type="module"></script>
+</body>
+
+</html>
